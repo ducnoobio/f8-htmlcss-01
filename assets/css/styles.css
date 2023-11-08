@@ -9,6 +9,10 @@
 :root{
     --primary-color: #0F1B4C;
 }
+html,
+body{
+    scroll-behavior: smooth;
+}
 
 html{
     font-size: 62.5%;
@@ -52,6 +56,7 @@ a{
     position: sticky;
     top: -26px;
     z-index: 1;
+    border-radius: 10px;
 }
 .fixed-header .content{
     /* background: red; */
@@ -60,9 +65,10 @@ a{
 .hero-wrap{
     position: relative;
     background: #E6F0FF;
-    height: 100vh;
+    height: calc(100vh - 90px);
     display: flex;
     flex-direction: column;
+    /* justify-content: center; */
 }
 
 .navbar {

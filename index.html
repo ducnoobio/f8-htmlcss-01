@@ -17,20 +17,41 @@
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans&family=Roboto&display=swap"rel="stylesheet">
     </head>
     <body >
+        <!-- favicion -->
+        <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicion/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="./assets/favicion/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="./assets/favicion/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicion/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="./assets/favicion/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="./assets/favicion/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="./assets/favicion/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="./assets/favicion/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicion/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="./assets/favicion/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicion/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicion/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicion/favicon-16x16.png">
+        <link rel="manifest" href="./assets/favicion/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
         <main>
             <header class="fixed-header">
                 <div class="content">
                     <!-- navbar -->
                     <nav class="navbar">
                         <!-- logo -->
-                        <img src="./assets/img/Logo.svg" alt="Besnik.">
+                        <a href="#">
+                            <img src="./assets/img/Logo.png" alt="Besnik.">
+                        </a>
                         <!-- navigation -->
                         <ul>
-                            <li><a href="">Home</a></li>
-                            <li><a href="">Featuer</a></li>
-                            <li><a href="">Services</a></li>
-                            <li><a href="">Resaurces</a></li>
-                            <li><a href="">Contact</a></li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#featuer">Featuer</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#sesaurces">Resaurces</a></li>
+                            <li><a href="#sontact">Contact</a></li>
                         </ul>
                         <!-- action -->
                         
@@ -61,11 +82,11 @@
             </header>
 
             <!-- Clients -->
-            <div class="clients">
+            <div id="services" class="clients">
                 <div class="content">
                     <div class="row">
                         <!-- Logo -->
-                        <img src="./assets/img/Logo.svg" alt="Besnik.">
+                        <img src="./assets/img/Logo.png" alt="Besnik.">
 
                         <!-- Star -->
                         <div class="star"><img src="./assets/img/Star.svg" alt="Star"></div>
@@ -141,7 +162,7 @@
             </div>
 
             <!-- FEATURED -->
-            <div class="featured">
+            <div id="featuer" class="featured">
                 <div class="content">
                     <header>
                         <h2 class="sub-title">Featured Properties</h2>
@@ -202,7 +223,7 @@
             </div>
 
             <!-- Stats -->
-            <div class="stats">
+            <div id="sontact" class="stats">
                 <div class="content">
                     <div class="row">
                         <div class="img-block">
@@ -297,7 +318,7 @@
             </div>
 
             <!-- FOOTER -->
-            <footer class="footer">
+            <footer id="sesaurces" class="footer">
                 <div class="content">
                     <div class="row row-top">
                         <div class="column">
@@ -368,7 +389,7 @@
                     </div>
 
                     <div class="row row-bottom">
-                        <img src="./assets/img/Logo.svg" alt="Besnik." class="logo">
+                        <img src="./assets/img/Logo.png" alt="Besnik." class="logo">
                         <p class="copyright">Copyright 2020.com, All rights reserved.</p>
                     </div>
                 </div>
